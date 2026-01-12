@@ -5,8 +5,8 @@ This project is a robust RESTful API built with **Python** and **FastAPI** that 
 
 
 ## Live API Endpoint
-* **Base URL:** [INSERT_YOUR_RENDER_OR_RAILWAY_URL_HERE]
-* **Interactive Docs (Swagger UI):** [\http://127.0.0.1:8000/docs\]
+* **Base URL:** [https://morse-code-api-moneybois.onrender.com]
+* **Interactive Docs (Swagger UI):** [https://morse-code-api-moneybois.onrender.com/docs]
 
 ## Key Features
 * **Bidirectional Conversion:** Seamlessly converts Text-to-Morse and Morse-to-Text through a single endpoint.
