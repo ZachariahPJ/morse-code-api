@@ -1,41 +1,43 @@
-# 📡 Text ↔ Morse Code Web App
+# Text <-> Morse Code Web App
 
-We built a full-stack web app that translates **Text to Morse Code** (and back again) instantly. It’s powered by **FastAPI** on the backend and currently running live on **Render**.
+We built a full-stack web app that translates **Text to Morse Code** (and back again) instantly. It is powered by **FastAPI** on the backend and currently running live on **Render**.
 
-### 🔗 Try it out
-**Live App:** 👉 **[https://morse-code-api-moneybois.onrender.com/](https://morse-code-api-moneybois.onrender.com/)**
+### Try it out
+**Live App:** [https://morse-code-api-moneybois.onrender.com/](https://morse-code-api-moneybois.onrender.com/)
 
 ---
 
-### ⚡ What it does
+### What it does
 Instead of just a basic script, we turned this into a proper web interface.
+
 * **Smart Detection:** You don't need to select a mode. Just type "Hello" or "... --- ..." and the app figures out which way to translate.
+* **Error Handling:** If you type a character that doesn't exist in standard Morse code (like specific symbols), it will display a "?" instead of crashing.
 * **Web UI:** Clean HTML/CSS interface so you don't have to use raw API calls.
 * **Documentation:** If you prefer the API view, the Swagger docs are auto-generated at `/docs`.
 
 ---
 
-### 📸 Proof it works
+### Proof it works
 We tested it with the classic "Hello World" example.
 
-**1. Text → Morse**
+**1. Text -> Morse**
 *(Input: "Hello World")*
 ![Text to Morse](images/text_to_morse.png)
 
-**2. Morse → Text**
+**2. Morse -> Text**
 *(Input: ".... . .-.. .-.. --- / .-- --- .-. .-.. -..")*
 ![Morse to Text](images/morse_to_text.png)
 
 ---
 
-### 🛠️ The Stack
+### The Stack
 * **Backend:** Python 3.9 + FastAPI
 * **Server:** Uvicorn
 * **Hosting:** Render (Cloud)
 
 ---
 
-### 💻 Run it locally
+### Run it locally
 If you want to test this on your own machine:
 
 1.  **Clone the repo:**
